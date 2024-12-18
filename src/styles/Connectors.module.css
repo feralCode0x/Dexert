@@ -1,0 +1,67 @@
+.connectors {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    margin: 1rem;
+    margin-left:600px;
+    margin-top: -50px;
+   
+  }
+  
+ .connector {
+    padding: 0.5rem 1rem;
+    border: 1px solid #c3c5cb;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    grid-auto-flow: row;
+    align-items: center;
+    column-gap: 1rem;
+    background-color: #fff;
+      }
+  
+  .connector label {
+    flex-grow: 1;
+    font-weight: 500;
+    background-color: #fff;
+  }
+  
+  .connector .status {
+    width: 1rem;
+    fill: red;
+  }
+  
+  .connector .status.active {
+    fill: green;
+  }
+  
+  @media (max-width: 727px) {
+    .connectors {
+      margin: 0 0 1rem;
+    }
+  
+    .connector {
+      width: 360px;
+      background-color: #fff;
+    }
+  }
+  
+  .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdowncontent {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
