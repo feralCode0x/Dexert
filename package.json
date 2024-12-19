@@ -2,7 +2,7 @@
   "name": "dexert",
   "version": "1.0.0",
   "private": true,
-  "homepage": "./",
+  "homepage": "https://feralcode0x.github.io/dexert-widget/",
   "options": {
     "allowedHosts": [
       "localhost",
