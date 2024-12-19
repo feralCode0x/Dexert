@@ -1,7 +1,7 @@
 {
   "name": "dexert",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "proxy": "https://feralcode0x.github.io/dexert-widget",
   "options": {
     "allowedHosts": [
